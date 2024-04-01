@@ -1,0 +1,24 @@
+.modal {
+    position: fixed; /* Ensure modal doesn't move when scrolling */
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; /* Enable scrolling if modal content exceeds viewport */
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 10% auto; /* Center the modal vertically */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40%; /* Reduce the modal width */
+    border-radius: 10px;
+  }
+  .modal-warn-pic{
+    width: 150px;
+    height: 150px;
+  }

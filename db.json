@@ -1,0 +1,167 @@
+{
+  "fact": [
+    {
+      "Name": "A",
+      "Description": "อาการสำคัญA",
+      "booleancase": false,
+      "id": "5"
+    },
+    {
+      "Name": "B",
+      "Description": "อาการสำคัญB",
+      "booleancase": false,
+      "id": "6"
+    },
+    {
+      "Name": "C",
+      "Description": "อาการสำคัญC",
+      "booleancase": false,
+      "id": "7"
+    },
+    {
+      "Name": "D",
+      "Description": "อาการสำคัญD",
+      "booleancase": false,
+      "id": "8"
+    },
+    {
+      "Name": "E",
+      "Description": "ประวัติE",
+      "booleancase": false,
+      "id": "10"
+    },
+    {
+      "Name": "F",
+      "Description": "ผลตรวจF",
+      "booleancase": false,
+      "id": "11"
+    },
+    {
+      "Name": "G",
+      "Description": "อาการG",
+      "booleancase": false,
+      "id": "ca4c"
+    },
+    {
+      "Name": "H",
+      "Description": "การแสดงของโรคH",
+      "booleancase": false,
+      "id": "d9cf"
+    },
+    {
+      "id": "e031",
+      "Name": "I",
+      "Description": "การแสดงของโรคI",
+      "booleancase": false
+    },
+    {
+      "id": "fb79",
+      "Name": "J",
+      "Description": "อาการJ",
+      "booleancase": false
+    },
+    {
+      "id": "0df4",
+      "Name": "K",
+      "Description": "อาการK",
+      "booleancase": false
+    },
+    {
+      "Name": "X",
+      "Description": "โรคX",
+      "booleancase": false,
+      "id": "3"
+    },
+    {
+      "Name": "Y",
+      "Description": "โรคY ",
+      "booleancase": false,
+      "id": "4"
+    }
+  ],
+  "rule": [
+    {
+      "id": "d72d",
+      "premise1": "A",
+      "operation": "and",
+      "premise2": "B",
+      "conclude1": "G",
+      "operationconclude": "-",
+      "conclude2": "-"
+    },
+    {
+      "id": "1662",
+      "premise1": "C",
+      "operation": "and",
+      "premise2": "D",
+      "conclude1": "H",
+      "operationconclude": "-",
+      "conclude2": "-"
+    },
+    {
+      "id": "2386",
+      "premise1": "E",
+      "operation": "-",
+      "premise2": "",
+      "conclude1": "I",
+      "operationconclude": "-",
+      "conclude2": "-"
+    },
+    {
+      "id": "1021",
+      "premise1": "F",
+      "operation": "and",
+      "premise2": "G",
+      "conclude1": "J",
+      "operationconclude": "-",
+      "conclude2": "-"
+    },
+    {
+      "id": "3613",
+      "premise1": "H",
+      "operation": "and",
+      "premise2": "I",
+      "conclude1": "K",
+      "operationconclude": "-",
+      "conclude2": "-"
+    },
+    {
+      "id": "b8f8",
+      "premise1": "J",
+      "operation": "-",
+      "premise2": "",
+      "conclude1": "X",
+      "operationconclude": "-",
+      "conclude2": "-"
+    },
+    {
+      "id": "c8a7",
+      "premise1": "K",
+      "operation": "-",
+      "premise2": "",
+      "conclude1": "Y",
+      "operationconclude": "-",
+      "conclude2": "-"
+    }
+  ],
+  "userdata": [
+    {
+      "id": "0e71",
+      "username": "User1231",
+      "password": "12345678",
+      "role": "User",
+      "email": "teeraphan.kanoknetveerakul@gmail.com",
+      "firstname": "teeraphan",
+      "lastname": "kanoknetveerakul"
+    },
+    {
+      "id": "b070",
+      "username": "ExpertswuAI",
+      "password": "korteera42",
+      "role": "Expert",
+      "email": "teeraphan.kanoknetveerakul@g.swu.ac.th",
+      "firstname": "teeraphan",
+      "lastname": "kanoknetveerakul"
+    }
+  ]
+}

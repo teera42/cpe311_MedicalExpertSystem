@@ -1,0 +1,76 @@
+/* Createrule.css */
+
+/* Modal Background */
+.modal {
+    position: fixed; /* Ensure modal doesn't move when scrolling */
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; /* Enable scrolling if modal content exceeds viewport */
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 10% auto; /* Center the modal vertically */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40%; /* Reduce the modal width */
+    border-radius: 10px;
+  }
+  
+  /* Form Styling */
+  .form-group-add {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block; /* Display labels on new lines */
+    font-weight: bold;
+  }
+  
+  select {
+    width: calc(100% - 22px); /* Adjust select width */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-top: 5px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg fill="black" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/><path d="M0 0h24v24H0z" fill="none"/></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+  }
+  
+  select::-ms-expand {
+    display: none;
+  }
+  
+  .align-btn-submit {
+    text-align: right;
+  }
+  
+  .btn-cancel-admin,
+  .btn-submit {
+    padding: 10px 20px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .btn-cancel-admin {
+    color: black;
+    background-color: #efefef;
+  }
+  
+  .btn-submit {
+    color: white;
+    background-color: #007bff;
+  }
+  
